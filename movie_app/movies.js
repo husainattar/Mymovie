@@ -22,7 +22,7 @@ app.get("/result",function(req,res)
               res.render("result",{parsedData:parsedData});
          }else
          {
-              console.log("error-404");
+              console.log("error-404 h");
          }
     });
 });
